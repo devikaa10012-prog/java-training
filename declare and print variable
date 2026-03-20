@@ -1,0 +1,13 @@
+ import java.util.Scanner;
+public class Solution {
+    public static void main(String[] args) {
+        Scanner c = new Scanner(System.in);
+        int a = c.nextInt();
+        double b = c.nextDouble();
+        c.nextLine();
+        String s = c.nextLine();
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(s);
+    }
+}
