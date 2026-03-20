@@ -1,0 +1,16 @@
+import java.util.*;
+public class Solution {
+      public static void main(String[] args) {
+      int a;
+      Scanner ac=new Scanner(System.in);
+      a=ac.nextInt();
+      if(a>=40)
+      {
+          System.out.print("Pass");
+      }
+      else
+      {
+           System.out.print("Fail");
+      }
+    }
+}
