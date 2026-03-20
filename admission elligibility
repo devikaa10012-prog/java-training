@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Solution {
+    public static void main(String[] args) {
+    int a,b;
+    Scanner ac=new Scanner(System.in);
+    a=ac.nextInt();
+    b=ac.nextInt();
+    if(a>=18 && b>=40)
+    {
+        System.out.println("Eligible");
+    }
+    else
+    {
+        System.out.println("Not Eligible");
+    }
+    }
