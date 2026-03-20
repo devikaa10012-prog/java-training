@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Solution{
+      public static void main(String[]args)
+      { int a,b,c;
+      Scanner d1=new Scanner(System.in);
+      a=d1.nextInt();
+      b=d1.nextInt();
+      c=d1.nextInt();
+      int largest;
+      if(a>=b && b>=c)
+      {
+           largest=a;
+      }   
+      else if(b>=a && b>=c)
+      {
+           largest=b;
+      }
+      else
+      {
+           largest=c;
+      }
+       System.out.print(largest);
+      }
